@@ -1,0 +1,148 @@
+body {
+	font: 20px Montserrat, sans-serif;
+	line-height: 1.8;
+	/* color: #f5f6f7; */
+}
+
+html, body{
+	overflow-x: hidden; /*  Very Important!!!!! */
+}
+
+p {
+	font-size: 16px;
+}
+
+/* div {
+	overflow-x: hidden;  Very Important!!!!!
+} */
+
+.margin {
+	margin-bottom: 45px;
+}
+
+.bg-1 {
+	background-color: #818181; /* Green  #1abc9c*/
+	color: #ffffff;
+}
+
+.bg-2 {
+	background-color: #474e5d; /* Dark Blue */
+	color: #ffffff;
+}
+
+.bg-3 {
+	background-color: #ffffff; /* White */
+	color: #555555;
+}
+
+.bg-4 {
+	background-color: #2f2f2f; /* Black Gray */
+	color: #fff;
+}
+
+.whiteTextOverride
+{
+	/* text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; */
+	text-shadow: 0 0 5px #fff, 0 0 3px #555555 ;
+ 	color: white !important;
+}
+
+.container-fluid {
+	padding-top: 0px; /* used to be 70 */
+	padding-bottom: 0px; /* used to be 70 */
+	overflow: hidden;
+}
+
+.container-fluid-footer {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.container-fluid-div {
+	padding-top: 0px; /* used to be 70 */
+	padding-bottom: 0px; /* used to be 70 */
+}
+
+.container-fluid-bit {
+	padding-top: 30px;
+	padding-bottom: 50px;
+}
+
+.container-fluid-bit-more {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navbar {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border: 0;
+	border-radius: 0;
+	margin-bottom: 0;
+	font-size: 12px;
+	letter-spacing: 5px;
+}
+
+.navbar-nav  li a:hover {
+	color: #1abc9c !important;
+}
+
+.option_menu_box {
+	border-top: 1px solid #DDD;
+	padding-top: 15px;
+}
+
+.option_menu {
+	margin-top: 5px;
+}
+
+.tooltip-inner {
+	max-width: 350px;
+	/* If max-width does not work, try using width instead */
+	width: 100px;
+}
+
+/* Remove the navbar's default margin-bottom and rounded borders */
+.navbar {
+/* 	margin-bottom: 0;
+	border-radius: 0; */
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+	min-height: 600px;
+}
+
+/* Set gray background color and 100% height */
+.sidenav {
+	padding-top: 20px;
+	background-color: #f1f1f1;
+	height: 100%;
+	margin-bottom: -5000px; /* any large number will do */
+ 	padding-bottom: 5000px; 
+}
+
+/* Set black background color, white text and some padding */
+footer {
+	background-color: #555;
+	color: white;
+	padding: 15px;
+}
+
+/* On small screens, set height to 'auto' for sidenav and grid */
+@media screen and (max-width: 767px) {
+	.sidenav {
+		height: auto;
+		padding: 15px;
+	}
+	.row.content {
+		height: auto;
+	}
+}
+
+.narrow{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

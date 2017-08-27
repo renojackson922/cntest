@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+<context>
+	<Resource 
+	name="jdbc/oracle" 
+	auth="Container" 
+	type="javax.sql.DataSource"
+	driverClassName="oracle.jdbc.driver.OracleDriver" 
+	url="jdbc:oracle:thin:@127.0.0.1:1521:xe"
+	username="jsp5"
+	password="jsp5" 
+	maxTotal="50" 
+	maxIdle="20" 
+	maxWaitMillis="-1"/>
+</context>

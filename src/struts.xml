@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN"
+        "http://struts.apache.org/dtds/struts-2.0.dtd">
+
+<struts>
+	<constant name="struts.action.excludePattern" value="/websocket*,^ws://.$" />
+	<package name="default" namespace="/" extends="struts-default">
+		<action name="index" class="com.codenator.action.Cleaner">
+			<result>
+				/ide.jsp
+			</result>
+		</action>
+		<action name="run" class="com.codenator.action.Run">
+			<result>
+
+			</result>
+		</action>
+
+		<action name="run2" class="com.codenator.action.Run2">
+			<result>
+
+			</result>
+		</action>
+
+		<action name="input" class="com.codenator.action.Input">
+			<result>
+			</result>
+		</action>
+	</package>
+	<!-- Add packages here -->
+</struts>
