@@ -1,1 +1,3 @@
-# codenator
+# Codenator
+
++ Capstone Design
