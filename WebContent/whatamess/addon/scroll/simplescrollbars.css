@@ -10,12 +10,12 @@
 .CodeMirror-simplescroll-horizontal, .CodeMirror-simplescroll-vertical {
   position: absolute;
   z-index: 6;
-  background: #eee;
+  background: #555; /* used to be #eee */
 }
 
 .CodeMirror-simplescroll-horizontal {
   bottom: 0; left: 0;
-  height: 8px;
+  height: 14px;
 }
 .CodeMirror-simplescroll-horizontal div {
   bottom: 0;
@@ -24,7 +24,7 @@
 
 .CodeMirror-simplescroll-vertical {
   right: 0; top: 0;
-  width: 8px;
+  width: 14px;
 }
 .CodeMirror-simplescroll-vertical div {
   right: 0;
