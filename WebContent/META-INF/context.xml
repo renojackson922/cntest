@@ -23,9 +23,9 @@
 		auth="Container" 
 		type="javax.sql.DataSource"
 		driverClassName="oracle.jdbc.driver.OracleDriver" 
-		url="jdbc:oracle:thin:@127.0.0.1:1521:xe"
-		username="jsp5"
-		password="jsp5" 
+		url="jdbc:oracle:thin:@gjl.cxbplannjbaq.ap-northeast-2.rds.amazonaws.com:1521:ORCL"
+		username="awssystem"
+		password="oracleoracle" 
 		maxTotal="50" 
 		maxIdle="20" 
 		maxWaitMillis="-1"/>
