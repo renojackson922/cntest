@@ -33,7 +33,17 @@ public class Output {
     
     @OnClose
     public void onClose(Session session) {
-        System.out.println("Connection closed");
+        try {
+        	session.close();
+        	System.out.println(session.isOpen());
+        	if(session.isOpen()) {
+        		System.out.println("Connection closed");
+        	}else {
+        		System.out.println("Connection is not closed");
+        	}	
+        }catch (Exception e){
+        	e.printStackTrace();
+        }
     }
 
     @OnError

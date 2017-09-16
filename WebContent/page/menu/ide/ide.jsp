@@ -225,7 +225,7 @@
 
     });
    });
-
+ 
     $("#input_submit").click(function() {
      $('#output').val($('#output').val() + $("#input").val() + '\n');
      $.post("${pageContext.request.contextPath}/input.action", {

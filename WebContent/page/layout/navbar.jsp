@@ -44,11 +44,11 @@
 	if (!inverse) {
 %>
 <!-- Should ignore this warning sign. No malfunction. -->
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-default" style="margin-bottom:0px;">
 <%
   	} else {
 %>
-  <nav class="navbar navbar-inverse">
+  <nav class="navbar navbar-inverse" style="margin-bottom:0px;">
 <% }%>
     <div class="container-fluid-div">
       <div class="navbar-header">

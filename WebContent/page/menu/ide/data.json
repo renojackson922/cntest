@@ -1,0 +1,14 @@
+{
+	"1":{
+		"input1":"en 1 en 2 en 3 en 4 en 5 en 6 en 7 de de en 8 size front quit",
+		"output1":"# value 1 is enqueued to Q # value 2 is enqueued to Q # value 3 is enqueued to Q # value 4 is enqueued to Q # value 5 is enqueued to Q # value 6 is enqueued to Q Q is full. * value 1 is dequeued from Q * value 2 is dequeued from Q # value 8 is enqueued to Q $ size of Q is 5 @ front of Q is 3",
+		"input2":"en 1 en 2 en 3 en 4 en 5 en 6 en 7 quit",
+		"output2":"# value 1 is enqueued to Q # value 2 is enqueued to Q # value 3 is enqueued to Q # value 4 is enqueued to Q # value 5 is enqueued to Q # value 6 is enqueued to Q Q is full.",
+		"input3":"",
+		"output3":"",
+		"input4":"",
+		"output4":"",
+		"code":"#include <stdio.h>"
+	}
+}
+

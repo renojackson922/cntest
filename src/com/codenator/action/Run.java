@@ -71,7 +71,7 @@ public class Run extends ActionSupport implements SessionAware {
             final Session shellSession = (Session) session.get(PublicString.SHELLSESSION);
             final String sessionId = ServletActionContext.getRequest().getRequestedSessionId();
 
-            System.out.println(language);
+            System.out.println("Lang is = " + language);
             if (language.equals("Java")) {
                 try {
                     SFTPv3Client sc = new SFTPv3Client(conn);

@@ -13,6 +13,7 @@ import java.io.FileOutputStream;
 /**
  * Created by zhf on 2016/8/1.
  */
+
 public class SourceFile {
     public static final String sourceFilePublicPath= PublicString.SOURCEFILEPUBLICPATH;
     private File sourceFile;
